@@ -1,0 +1,60 @@
+mode: 'local'
+#测试服
+#mode: 'test'
+#预发布
+#mode: 'pre'
+#正式
+#mode: 'release'
+port: 9001
+configPath: "./dbconfig.toml"
+mysql:
+  host: "192.168.0.254"
+  port: 3306
+  name: "gm"
+  user: "root"
+  password: "430022"
+user:
+  host: "192.168.0.254"
+  port: 3306
+  name: "ndb"
+  user: "root"
+  password: "430022"
+game:
+  host: "192.168.0.254"
+  port: 3306
+  name: "game"
+  user: "root"
+  password: "430022"
+pay:
+  host: "192.168.0.254"
+  port: 3306
+  name: "pay_sdk"
+  user: "root"
+  password: "430022"
+log:
+  host: "192.168.0.254"
+  port: 3306
+  name: "logdb"
+  user: "root"
+  password: "430022"
+srv:
+  hall: 'http://192.168.0.254:8083/' #这个要替换成对应的环境的域名
+  token: 'eyJ1aWQiOLCJQaG9uZSI6IjE4MDY2NjY2NjY2IiwiRW1oxNjk3MjQ4NzY3LCJpc3MiOiIxNzA1NzE0NjMyIiwic3VizX4tlq_'
+jwt:
+  key: 'ghlasdfkgbnkadfjbgnksdfjsdfgnbjk'
+redis:
+  host: "192.168.0.254"
+  port: 6379
+  expire: 1
+  db: 2
+  username: ''
+  password: ''
+mct:
+  addr: '192.168.0.254:5021'
+  auth: '5F04A8843E6C2DE610D1DA9296CFA2C6169B4A7F'
+  typeIdx: 2
+  sid: 10000115
+  logCfg: '{"fmt":false,"path":"txtlog","off":false}'
+inPay:
+  publicKey: 'MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCPbi6oAfmhH5CT/r5LYvC/IxWvCiGzTVv6mHQ5uOiN+i/4nn0tr10HAd2EMZ9kwoPQY+CyJmDQubwRtNZDJttmrHdV4YP6cokJLGOnEZJtiNx9DAMAVrC0iksk73XKPnAVlgcHKNKxGrLC+nJs6oZjfyHBweI+RNlmCY5sw9haXQIDAQAB'
+  privateKey: 'MIICdQIBADANBgkqhkiG9w0BAQEFAASCAl8wggJbAgEAAoGBAI9uLqgB+aEfkJP+vkti8L8jFa8KIbNNW/qYdDm46I36L/iefS2vXQcB3YQxn2TCg9Bj4LImYNC5vBG01kMm22asd1Xhg/pyiQksY6cRkm2I3H0MAwBWsLSKSyTvdco+cBWWBwco0rEassL6cmzqhmN/IcHB4j5E2WYJjmzD2FpdAgMBAAECgYAtn1B75FTw6Udlq8v/0rLdOV22VbSugdbV+RRPH//o2UHVBSSwGW2vwuohGF+o/y5KZNqeEBMPkWS/BRR6O6vhm/qbJjWKkcUsTMX6UKEAbUJkF/oz47ihjSb0TgY5ynf2+vLyTHvztXpX7d+E0IuPGmjEgqdC+7QbzZaUu7l0SQJBANi17hYJayxD18exVOgj99WsU8Ra0yi4J3ckU1YAPZDzifEy+T2TGgzATTUvXS9JcqhY33SRpIYPYNR3Ov6N9C8CQQCpbyL298l31nI8N222P5vdWXTTQibFI0vX4SuURTDotMwOatHGn/DVCdl2FXe44CdER48FxXEolbYZk9Z/fFszAkAvvs2Iz2RsaToWRgyl5J7K1d/SyAvz0bboOfmeXgkycWW33XoqRcmce5XHHPtT2sPHMWVyAlCUNLkptmcqBE6DAkB4OkxtQtbLGnhlEk/firNnFhs37TDlom4m+biatZ5HAkPp1xKUBto10Y9lo0YZAbXbVYu/ZKMvUUyuSaFjRTLRAkAUZ9nKeT+6tkx/X+QjqGokbOsv/ZMlSAjmGZg9QTIKyyzq8jfrUMV4Bb4aQi+rWTmj3HfnlljoXeYq0FxyFG/4'

@@ -1,0 +1,1 @@
+dlv --listen=:9001--headless=true --api-version=2 --accept-multiclient exec ./gm.exe

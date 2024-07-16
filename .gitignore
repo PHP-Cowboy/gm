@@ -1,0 +1,10 @@
+.DS_Store
+.idea
+logs
+txtlog
+go.mod
+go.sum
+gm
+gm.exe
+all.log
+*.log
